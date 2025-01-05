@@ -10,3 +10,18 @@ O módulo [pyaes](https://pypi.org/project/pyaes/) foi utilizado para gerar a ch
 
 - Linguagem `Python`
 - Módulo `pyaes`
+
+## 📝 Resultado
+
+Conteúdo do arquivo descriptografado:
+
+```txt
+Hello world!
+```
+
+Arquivo após a criptografia:
+
+```txt
+矛
+oS�hj/$y
+```
